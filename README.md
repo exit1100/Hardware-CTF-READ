@@ -7,7 +7,6 @@ cd prob
 docker compose up -d
 ```
 
-
 # Writeup
 IoT 장비 취약점 분석을 하기 위해 피지컬랩에서 판매하는 홈캠(PL-CAM-2024)을 구매했다.
 PCB에서 EEPROM으로 추정되는 칩과 데이터 시트를 찾았는데, 칩에 쓰여진 데이터를 어떻게 읽을 수 있을까?
@@ -90,4 +89,6 @@ http://[url]:[port]/cgi-bin/fd2895412cffbc6a?cmd=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 따라서, 웹 서버에 위와같은 요청을 보내면 flag를 획득할 수 있습니다.
 
 
-## 4) 자세한 Writeup은 [여기](https://she11.tistory.com/)에서 확인할 수 있습니다.
+## 4) Detail Writeup
+더 상세한 Writeup은 [여기](https://she11.tistory.com/)에서 확인할 수 있습니다.
+
